@@ -4,6 +4,7 @@ import vue from '@vitejs/plugin-vue';
 import vueDevTools from 'vite-plugin-vue-devtools';
 // https://vite.dev/config/
 export default defineConfig({
+    base: 'Threejs-test-assignment_VARDEK',
     plugins: [
         vue(),
         vueDevTools(),
